@@ -12,7 +12,7 @@ app.config['UPLOAD_FOLDER'] = os.path.join(app.root_path, 'static', 'uploads')
 os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 
 manager = DBManager()
-
+# 수정하기
 # 목록보기
 @app.route('/')
 def index():
